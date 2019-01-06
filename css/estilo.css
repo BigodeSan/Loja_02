@@ -1,0 +1,55 @@
+/* css personalizado */
+
+body {
+    padding-top: 0px;   
+}
+
+.linhaCinza {
+    background: gray;   
+}
+
+.linhaPersonalizada {
+    background: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-color-padding p {
+    padding: 15px;   
+}
+
+.center {
+    /*display: block;*/
+    margin-left: auto;
+    /*width: 50%;*/
+    margin-top: 10px;   
+    margin-bottom: 10px;
+}
+
+.color  {
+    background-color: yellow;
+}
+
+.align {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-fixo {
+	position: fixed;
+    width: 100%;
+	top: 0;
+    left: 0;
+	z-index: 99;
+	transition: all .5s;
+    }
+
+.dropdown-menu {
+    border: none;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    font-family: "Sansita",sans-serif;
+    font-size: 18px;
+}
