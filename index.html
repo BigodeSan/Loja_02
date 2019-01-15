@@ -12,11 +12,17 @@
         <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
+            
         <!-- css personalizado -->
         <link href="css/estilo.css" rel="stylesheet" media="all">
         <link href="css/business-casual.css" rel="stylesheet">
     </head>
 <body>
+    <!--
+    <div class="icon-bar">
+        <a class="" href="index.html"><i class="fa fa-home"></i></a>  
+    </div>
+    -->
     <div class="brand fixed-top color" id="logo">
         <img src="img/logo_loja.png" alt="Tutorial Web Design" class="image-responsive">    
     </div>    
@@ -29,27 +35,28 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    
-                    
                     <!-- Nome da empresa ou titulo do site para os dispositivos mobile -->
-                    <a class="navbar-header" href="aula20.html">
+                    <a class="navbar-header" href="index.html">
                         <img src="img/lj_mobile.png" class="img-responsive align">
                     </a>
                     
                 </div>
-                <div class="collapse navbar-collapse" id="elementoCollapse1">
+                <div class="collapse navbar-collapse" id="elementoCollapse1"> 
                     <ul class="nav navbar-nav">
+                        <li>
+                            <a id="size" class="home" href="#"> Inicio </a> 
+                        </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feminino<span class="caret"></span></a>
                                 <ul class="dropdown-menu dropdown-menu-left" role="menu">
                                     <li>
-                                        <a class="" href="aula20.html">Pijamas</a>
+                                        <a class="" href="index.html">Pijamas</a>
                                     </li>
                                     <li>
-                                        <a class="" href="aula20.html">Camisolas</a>
+                                        <a class="" href="index.html">Camisolas</a>
                                     </li>
                                     <li>
-                                        <a class="" href="aula20.html">Calcinhas</a>
+                                        <a class="" href="index.html">Calcinhas</a>
                                     </li>
                                 </ul>
                         </li>
@@ -63,6 +70,8 @@
             </div>
         </nav>
        
+    <!-- Slider da aplicação -->
+    
     <div class="container">
         <div class="row">
             <div class="box">
@@ -100,6 +109,8 @@
             </div>
         </div>
     </div>
+     
+    <!-- // Fim do Slider da aplicação -->
     <div class="container">
     <div class="row">
             <div class="box">
@@ -119,10 +130,13 @@
         </div>
         </div>    
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/menu.js"></script>
+        <script src="js/size.js"></script>
+    <!--    <script src="js/home.js"></script> -->
     </body>
 </html>
